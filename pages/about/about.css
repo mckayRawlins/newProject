@@ -1,0 +1,16 @@
+*  {
+    font-family: Andale Mono, monospace;
+    box-sizing: border-box;}
+h1 {
+        text-align: center !important; 
+        color: rgba(255, 255, 255, 0.751);
+        opacity: 100% !important;
+        font-size: 65px;
+    }    
+body {
+   
+    background-color:  #9fa9a3;
+}
+p {
+    text-align: center !important; 
+}
