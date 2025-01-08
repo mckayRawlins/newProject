@@ -1,13 +1,11 @@
-body {
-    background: linear-gradient(
-        black,
-        purple
-    );
+:root {
+    --text-color1: #260339;
 }
 
-h1 {
+body {
+    background-color: #9775AA;
+    color: var(--text-color1);
     text-align: center;
-    color: yellow;
 }
 
 .contactsContainer {
@@ -20,6 +18,5 @@ h1 {
 
 .fab {
     font-size: 2.4rem;
-    color: yellow;
     padding: 20px;
 }
