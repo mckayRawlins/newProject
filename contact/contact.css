@@ -1,5 +1,13 @@
+body {
+    background: linear-gradient(
+        black,
+        purple
+    );
+}
+
 h1 {
     text-align: center;
+    color: yellow;
 }
 
 .contactsContainer {
