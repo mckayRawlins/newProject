@@ -1,4 +1,10 @@
-h1 {
+:root {
+    --text-color1: #260339;
+}
+
+body {
+    background-color: #9775AA;
+    color: var(--text-color1);
     text-align: center;
 }
 
@@ -12,6 +18,5 @@ h1 {
 
 .fab {
     font-size: 2.4rem;
-    color: yellow;
     padding: 20px;
 }
