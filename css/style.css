@@ -1,0 +1,42 @@
+.title {
+    text-align: center;
+}
+
+.box {
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    display: block;
+    margin: 0 auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li  {
+    float: right;
+    margin-right: 1.5rem;
+    margin-bottom: 0;
+    font-size: 1.5rem;
+  }
+
+  li:last-child {
+  border-right: none;
+}
+  
+  li  a {
+    display: block;
+    color: var(--main-text-color);
+    text-align: center;
+    padding: 0.5rem;
+    text-decoration: none;
+  }
+  
+  li  a:hover {
+    background-color: lightblue;
+    color: darkslategrey;
+  }
