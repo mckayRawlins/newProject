@@ -37,6 +37,7 @@ ul {
     height: 300px;
     width: 300px;
     overflow: hidden;
+    border: 2px double purple;
 }
 
 
