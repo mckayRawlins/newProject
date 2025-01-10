@@ -42,7 +42,6 @@ document.getElementById("portrait").src = picture;
 }
 
 let xp = 0;
-let health = 100;
 let money = 50;
 let fighting;
 let monsterHealth;
@@ -53,7 +52,7 @@ const button3 = document.querySelector("#button3");
 const text = document.querySelector("#text");
 const xpText = document.querySelector("#xpText");
 const healthText = document.querySelector("#healthText");
-const goldText = document.querySelector("#goldText");
+const moneyText = document.getElementId("money");
 const monsterStats = document.querySelector("#monsterStats");
 const monsterName = document.querySelector("#monsterName");
 const monsterHealthText = document.querySelector("#monsterHealth");
@@ -240,3 +239,5 @@ function pick(guess) {
     }
   }
 }
+
+windows
