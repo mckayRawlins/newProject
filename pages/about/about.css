@@ -1,25 +1,36 @@
-.title {
-    text-align: center;
+* {
+  box-sizing: border-box;
+  /*border: 2px solid black;*/
 }
+
 body {
     background-color: #9775AA;
-    color: var(--text-color1);
 }
+
+h1, h3, p {
+  text-align: center;
+  padding: 10px;
+}
+
 .caption {
     color: rgba(217, 209, 247, 0.986);
-    font-size: 4rem;
-}
-p {
-    color: azure;
     font-size: 2rem;
 }
-.box {
-    height: 300px;
-    width: 300px;
-    border: 2px solid black;
+
+.aboutMessage {
+  background-color: #815699;
+  width: fit-content;
+  display: block;
+  margin: 0 auto;
+}
+
+p {
     display: block;
     margin: 0 auto;
-    overflow: hidden;
+    color: azure;
+    font-size: 1.5rem;
+    max-width: 50%;
+    min-width: 300px;
 }
 
 ul {
@@ -54,7 +65,3 @@ ul {
     color: darkslategrey;
   }
 
-#portrait {
-  height: 400px;
-  
-}
