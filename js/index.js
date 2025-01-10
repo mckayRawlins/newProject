@@ -8,11 +8,15 @@ let name = bussinessnames[namegen]
 
 document.getElementById("name").innerHTML = name;
 
-const bussinessjob = ["Crypto Scammer" , "Web Developer", "Professional Jerk", "Lawyer", "Tax Guy", "Beach", "Manager", "CEO", "Bezos"]
+const bussinessjob = { name: "Crypto Scammer" salary: 200  , "Web Developer", "Professional Jerk", "Lawyer", "Tax Guy", "Beach", "Manager", "CEO", "Bezos"}
 
-let jobgen = Math.floor(Math.random() * bussinessnames.length)
+let jobgen = Math.floor(Math.random() * bussinessjob.length)
 
-let job = bussinessjob[jobgen]
+let job = bussinessjob.name[jobgen]
+
+let money = bussinessjob.salary[jobgen];
+
+document.getElementById("money") = money;
 
 document.getElementById("job").innerHTML = job;
 
@@ -21,6 +25,7 @@ const bussinesshobbies = ["Loves Long walks by the office", "Loves looking at hi
 let hobbygen = Math.floor(Math.random() * bussinesshobbies.length)
 
 let hobbies = bussinesshobbies[hobbygen]
+
 
 document.getElementById("hobbies").innerHTML = hobbies;
 
@@ -39,20 +44,19 @@ let picture = bussinesspictures[picturegen]
 
 document.getElementById("portrait").src = picture;
 
+
+
 }
 
 let xp = 0;
-let money = 50;
+
 let fighting;
-let monsterHealth;
 let inventory = ["stick"];
 const button1 = document.querySelector('#button1');
 const button2 = document.querySelector("#button2");
 const button3 = document.querySelector("#button3");
 const text = document.querySelector("#text");
-const xpText = document.querySelector("#xpText");
-const healthText = document.querySelector("#healthText");
-const moneyText = document.getElementId("money");
+const xpText = document.getElementById("xp") = xp;
 const monsterStats = document.querySelector("#monsterStats");
 const monsterName = document.querySelector("#monsterName");
 const monsterHealthText = document.querySelector("#monsterHealth");
@@ -240,4 +244,5 @@ function pick(guess) {
   }
 }
 
-windows
+window.setInterval(function(){  
+    }, 1000);
