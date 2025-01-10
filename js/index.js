@@ -8,13 +8,21 @@ let name = bussinessnames[namegen]
 
 document.getElementById("name").innerHTML = name;
 
-const bussinessjob = { name: "Crypto Scammer" salary: 200  , "Web Developer", "Professional Jerk", "Lawyer", "Tax Guy", "Beach", "Manager", "CEO", "Bezos"}
+const bussinessjob = [{ job: "Crypto Scammer", money: 150  },
+   { job: "Web Developer" , money: 25 },
+    {job: "Professional Jerk", money: 10  },
+    {job:"Lawyer", money:30 },
+    {job: "Tax Guy", money: 50 },
+    {job: "Beach", money: 1 },
+    {job: "Manager", money: 75},
+   {job: "CEO", money:100 },
+   { job: "Bezos", money:250}]
 
 let jobgen = Math.floor(Math.random() * bussinessjob.length)
 
-let job = bussinessjob.name[jobgen]
+let job = bussinessjob.job[jobgen]
 
-let money = bussinessjob.salary[jobgen];
+let money = bussinessjob.money[jobgen];
 
 document.getElementById("money") = money;
 
@@ -50,7 +58,6 @@ document.getElementById("portrait").src = picture;
 
 let xp = 0;
 
-let fighting;
 let inventory = ["stick"];
 const button1 = document.querySelector('#button1');
 const button2 = document.querySelector("#button2");
