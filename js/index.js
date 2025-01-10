@@ -6,7 +6,7 @@ let namegen = Math.floor(Math.random() * bussinessnames.length)
 
 let name = bussinessnames[namegen]
 
-document.getElementByClass("name").innerHTML = name;
+document.getElementsByClassName("name").innerHTML = name;
 
 const bussinessjob = [{ job: "Crypto Scammer", money: 150  },
    { job: "Web Developer" , money: 25 },
@@ -22,9 +22,9 @@ let jobgen = Math.floor(Math.random() * bussinessjob.length)
 
 let job = bussinessjob[jobgen].job
 
-let money = bussinessjob[jobgen].money;
+let salary = bussinessjob[jobgen].money;
 
-document.getElementById("money") = money;
+// document.getElementById("money") = salary;
 
 document.getElementById("job").innerHTML = job;
 
