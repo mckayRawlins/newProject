@@ -12,8 +12,6 @@ for (let i = 0; i < nameElements.length; i++) {
     nameElements[i].innerHTML = name
 }
 
-
-
 const bussinessjob = [{ job: "Crypto Scammer", money: 150  },
    { job: "Web Developer" , money: 25 },
     {job: "Professional Jerk", money: 10  },
@@ -58,23 +56,22 @@ let picture = bussinesspictures[picturegen]
 
 document.getElementById("portrait").src = picture;
 
-
+xp = 0
 
 }
 
-let xp = 0;
 
+let xp = 0;
 let inventory = ["stick"];
 const button1 = document.querySelector('#button1');
 const button2 = document.querySelector("#button2");
 const button3 = document.querySelector("#button3");
 const text = document.querySelector("#text");
-// const xpText = document.getElementById("xp") = xp;
 const monsterStats = document.querySelector("#monsterStats");
 const monsterName = document.querySelector("#monsterName");
 const monsterHealthText = document.querySelector("#monsterHealth");
 
-const locations = [
+/* const locations = [
   {
     name: "town square",
     "button text": ["Go to store", "Go to cave", "Fight dragon"],
@@ -256,6 +253,8 @@ function pick(guess) {
     }
   }
 }
-
-window.setInterval(function(){  
+*/
+window.setInterval(function(){ 
+    document.getElementById("xp").innerHTML = xp; 
+    console.log(xp)
     }, 1000);
