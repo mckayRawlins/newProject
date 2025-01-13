@@ -7,24 +7,25 @@ let namegen = Math.floor(Math.random() * bussinessnames.length)
 let name = bussinessnames[namegen]
 
 document.getElementById("name").innerHTML = name;
+document.getElementById("name2").innerHTML = name;
 
-const bussinessjob = [{ job: "Crypto Scammer", money: 150  },
-   { job: "Web Developer" , money:25 },
-    {job: "Professional Jerk", money:10  },
-    {job:"Lawyer", money:30 },
-    {job: "Tax Guy", money:50 },
-    {job: "Beach", money: 1 },
-    {job: "Manager", money: 75},
-   {job: "CEO", money:100 },
-   { job: "Bezos", money:250}]
+const bussinessjob = [{ job: "Crypto Scammer", money: "150"  },
+   { job: "Web Developer" , money: "25" },
+    {job: "Professional Jerk", money: "10"  },
+    {job:"Lawyer", money: "30" },
+    {job: "Tax Guy", money: "50" },
+    {job: "Beach", money: "1" },
+    {job: "Manager", money: "75"},
+   {job: "CEO", money: "100" },
+   { job: "Bezos", money:" 250" }]
 
 let jobgen = Math.floor(Math.random() * bussinessjob.length)
 
 let job = bussinessjob[jobgen].job
 
-let salary = bussinessjob[jobgen].money;
+let money = bussinessjob[jobgen].money;
 
-// document.getElementById("money") = salary;
+document.getElementById("money").innerHTML = money;
 
 document.getElementById("job").innerHTML = job;
 
@@ -63,7 +64,7 @@ const button1 = document.querySelector('#button1');
 const button2 = document.querySelector("#button2");
 const button3 = document.querySelector("#button3");
 const text = document.querySelector("#text");
-const xpText = document.getElementById("xp") = xp;
+// const xpText = document.getElementById("xp") = xp;
 const monsterStats = document.querySelector("#monsterStats");
 const monsterName = document.querySelector("#monsterName");
 const monsterHealthText = document.querySelector("#monsterHealth");
